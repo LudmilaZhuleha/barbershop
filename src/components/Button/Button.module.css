@@ -1,0 +1,38 @@
+.button {
+    width: 185px;
+    height: 40px;
+    background-color: var(--secondary-grey);
+    color: var(--black);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button_arrow_prev {
+    margin-left: 20px;
+    cursor: pointer;
+    height: 15px;
+}
+.button_arrow_prev:hover {
+    opacity: 0.8;
+}
+.button_arrow_next {
+    margin-right: 20px;
+    cursor: pointer;
+    height: 15px;
+}
+.button_arrow_next:hover {
+    opacity: 0.8;
+}
+.button_booking {
+    composes: button;
+    background-color: var(--dark-grey);
+    color: var(--black);
+    margin: 32px 0 62px 0;
+}
+.button_close {
+    margin-left: 337px;
+    cursor: pointer;
+}

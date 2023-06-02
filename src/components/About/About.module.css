@@ -1,0 +1,54 @@
+.about_container {
+    padding: 62px 0;
+    min-height: calc(100vh - 192px);
+}
+.about_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    max-width: 904px;
+    color: var(--general-grey);
+}
+.about_tagline {
+    color: var(--dark-grey);
+    font-size: 16px;
+    max-width: 696px;
+    margin-bottom: 78px;
+    line-height: 150%;
+}
+.about_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 384px);
+    gap: 24px 32px;
+}
+.about_item_top {
+    padding: 6px 6px 6px 96px;
+    background-color: transparent;
+    background-image: url(../../fotos/top.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.about_item_master {
+    padding: 6px 6px 6px 96px;
+    background-color: transparent;
+    background-image: url(../../fotos/masters.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.about_item_guarantee {
+    padding: 6px 6px 6px 96px;
+    background-color: transparent;
+    background-image: url(../../fotos/guarantee.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.about_title {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.about_desc {
+    font-size: 16px;
+    color: var(--dark-grey);
+}

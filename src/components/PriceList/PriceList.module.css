@@ -1,0 +1,26 @@
+.pricelist_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pricelist_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    position: relative;
+}
+.pricelist_item:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark-grey);
+    bottom: -6px;
+}
+.pricelist_title {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.pricelist_count {
+    font-size: 14px;
+}

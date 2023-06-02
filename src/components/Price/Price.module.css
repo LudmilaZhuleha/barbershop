@@ -1,0 +1,28 @@
+.container {
+    padding: 62px 0;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.title_tagline {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.price_wrapper {
+    display: flex;
+}
+.price_img {
+    max-width: 592px;
+    height: auto;
+}
+.price_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 32px;
+    width: 100%;
+}

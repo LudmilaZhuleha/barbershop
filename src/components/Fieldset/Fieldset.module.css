@@ -1,0 +1,11 @@
+.container {
+    margin-bottom: 62px;
+}
+.container_inner {
+    margin-bottom: 0;
+}
+.title {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}

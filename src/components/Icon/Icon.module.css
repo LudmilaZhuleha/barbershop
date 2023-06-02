@@ -1,0 +1,19 @@
+.header_logo {
+    color: red;
+    fill: currentColor;
+    width: 70px;
+    height: 40px;
+    display: block;
+    margin-right: calc(560px - 33px);
+}
+.footer_logo {
+    composes: header_logo;
+    margin-right: 33px;
+}
+.arrow {
+    color: white;
+    stroke: white;
+    fill: white;
+    width: 64px;
+    height: 10px;
+}

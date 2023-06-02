@@ -1,0 +1,16 @@
+.hero {
+    padding: 62px 0;
+    min-height: calc(100vh - 192px);
+}
+.hero_title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 54px;
+    max-width: 904px;
+    text-align: left;
+    margin-bottom: 26px;
+}
+.visually_hidden {
+    visibility: hidden;
+    display: none;
+}

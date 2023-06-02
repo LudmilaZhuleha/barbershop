@@ -1,0 +1,62 @@
+.radio_label {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 100%;
+    cursor: pointer;
+    border: 1px solid var(--general-grey);
+    border-radius: 36px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    width: auto;
+}
+.radio_label_active {
+    composes: radio_label;
+    background-color: var(--general-grey);
+    color: var(--black);
+}
+.radio_label:hover, .radio_input:focus {
+    background-color: var(--general-grey);
+    color: var(--black);
+}
+.radio_input {
+    position: absolute;
+}
+.radio_label_spec1 {
+    background-image: url(../../fotos/spec1.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}
+.radio_label_spec2 {
+    background-image: url(../../fotos/spec2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}
+.radio_label_spec3 {
+    background-image: url(../../fotos/spec3.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}
+.radio_label_spec4 {
+    background-image: url(../../fotos/spec4.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}
+.radio_label_spec5 {
+    background-image: url(../../fotos/spec5.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}
+.radio_label_spec6 {
+    background-image: url(../../fotos/spec5.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 33px;
+}

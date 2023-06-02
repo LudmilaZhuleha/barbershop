@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: local('Raleway'), url(../../../public/fonts/raleway-v28-latin_cyrillic-regular.woff2) format('woff2');
+}
